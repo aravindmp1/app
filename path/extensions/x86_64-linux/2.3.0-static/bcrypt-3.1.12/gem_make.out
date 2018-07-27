@@ -1,0 +1,19 @@
+current directory: /home/aravindh/environment/sample_app/path/gems/bcrypt-3.1.12/ext/mri
+/home/aravindh/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20180724-8012-1ksu8va.rb extconf.rb
+creating Makefile
+
+current directory: /home/aravindh/environment/sample_app/path/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/aravindh/environment/sample_app/path/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_gensalt.c
+compiling crypt_blowfish.c
+compiling wrapper.c
+compiling crypt.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/aravindh/environment/sample_app/path/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20180724-8012-jdwzv6
